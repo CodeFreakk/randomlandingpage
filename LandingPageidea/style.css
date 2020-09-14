@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 *{
  margin: 0;
  padding: 0;
  box-sizing: border-box;
-   font-family: 'Questrial', sans-serif;
+  font-family: 'Long Cang', cursive;
 }
 section{
     position: relative;
@@ -45,8 +44,10 @@ header ul li a{
     display: inline-block;
     color: #ffffff;
     font-weight: 400;
-    margin-left: 40px;
+    margin-left: 120px;
     text-decoration: none;
+position: relative;
+    right:240px;
 }
 .content{
     position: relative;
@@ -57,7 +58,9 @@ header ul li a{
 }
 .content .textBox{
     position: relative;
+    left: 20px;
     max-width: 600px;
+    font-family: 'Long Cang', cursive;
 }
 .content .textBox h2{
     color: #fff;
@@ -71,19 +74,35 @@ header ul li a{
 }
 .content .textBox p{
     color: #fff;
+    font-size: 20px;
 
 }
 .content .textBox a{
     display: inline-block;
     margin-top: 20px;
+    
     padding: 8px 20px;
     background: #fff;
     color: #111;
     border-radius: 40px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
 }
+.content .textBox a:hover{
+    color: cornsilk;
+    background-color: #ca0b0b;
 
-.content .ImgBox
+}
+header ul li:hover{
+    opacity: 30%;
+}
+
+.content .ImgBox{
+width: 600px;
+display: flex;
+margin-right: 50px;
+margin-top: 50px;
+justify-content: flex-end;
+}
