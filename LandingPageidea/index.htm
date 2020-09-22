@@ -18,6 +18,8 @@
                 <li><a href="#">Home</a> </li>
                 <li><a href="#">Products</a> </li>
                 <li><a href="#">Contact</a> </li>
+                <li><a href="#">Products</a> </li>
+                <li><a href="#">Contact</a> </li>
 
            </ul>
        </header>
@@ -35,12 +37,20 @@
           </div>
        </div>
        <ul class="thumb">
-          <li><img src="/LandingPageidea/images/pepsi002.png"></li>
+          <li><img src="/LandingPageidea/images/pepsi002.png" onclick="imgSlider('/LandingPageidea/images/pepsi002.png')"></li>
 
-        <li><img src="/LandingPageidea/images/pepsi002.png"></li>
-        <li><img src="/LandingPageidea/images/pepsi002.png"></li>
+        <li><img src="/LandingPageidea/images/pepsi003.png" onclick="imgSlider('pepsi003.png')"></li>
+        <li><img src="/LandingPageidea/images/pepsi001.png" onclick="imgSlider('pepsi001.png')"></li>
 
        </ul>
+       <ul class="sci">
+         <li><a href = "#"><img src="/LandingPageidea/images/twitter.png"></a></li>
+       </ul>
    </section>
+   <script type="text/javascript">
+  function imgSlider(anything){
+    document.querySelector('.pepsi').src = anything;
+  }
+  </script>
   </body>
 </html>
